@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignActivity">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="28dp"
+        android:text="Already Have An Account?"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button33"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:drawableLeft="@drawable/facebook"
+        android:text="Facebook"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button55"
+        app:layout_constraintTop_toBottomOf="@+id/textView77"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,RtlHardcoded,UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="96dp"
+        android:drawableLeft="@drawable/google"
+        android:text="Google"
+        app:layout_constraintBottom_toBottomOf="@+id/button33"
+        app:layout_constraintEnd_toStartOf="@+id/button44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownIdInLayout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button33"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="129dp"
+        android:background="@drawable/greenbuttongradient"
+        android:text="Create Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77"
+        tools:ignore="HardcodedText,MissingConstraints,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="34dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="189dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="9dp"
+        android:text="or"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView77"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="105dp"
+        android:layout_height="18dp"
+        android:text="Sign Up with"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textView55"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="179dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/yummynew" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="51dp"
+        android:text="Sign Up Here"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputEditText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView66"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress22"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/mail"
+        android:ems="10"
+        android:hint=" Email or Phone Number"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputEditText1"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText1"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/eye_hide"
+        android:ems="10"
+        android:hint="  password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress22"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress22"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress22"
+        tools:ignore="Autofill,RtlHardcoded,TextFields,UnknownIdInLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/user"
+        android:hint="@string/name"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView44"
+        app:layout_constraintStart_toStartOf="@+id/textView44"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="editTextNumberPassword,textInputEditText1,editTextTextEmailAddress22"
+        tools:ignore="NotSibling,UnknownId" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="button33,button44,button55"
+        tools:ignore="NotSibling" />
+</androidx.constraintlayout.widget.ConstraintLayout>
