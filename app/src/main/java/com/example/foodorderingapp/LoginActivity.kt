@@ -1,9 +1,8 @@
 package com.example.foodorderingapp
-import com.example.foodorderingapp.SignActivity
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.content.Intent  // Import Intent for creating intents
-import com.example.foodorderingapp.databinding.ActivityLoginBinding  // Import the binding class
+import androidx.appcompat.app.AppCompatActivity
+import com.example.foodorderingapp.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 
@@ -13,8 +12,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)  // Initialize binding
         setContentView(binding.root)
-
-        binding.button3.setOnClickListener {//login button eke id assign karnne
+        //login button eke id assign karnne
+        binding.button3.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)  // Create Intent correctly
             startActivity(intent)
         }
