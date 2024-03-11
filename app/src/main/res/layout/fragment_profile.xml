@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@android:drawable/sym_action_call"
+        android:ems="10"
+        android:hint="@string/mobile_no"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        tools:ignore="Autofill,RtlHardcoded,RtlSymmetry" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/user"
+        android:hint="  Name"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="301dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="  password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputEditText2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TextFields,TouchTargetSizeCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:hint="  Address"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/mail"
+        android:ems="10"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputEditText"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="134dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="139dp"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        android:importantForAccessibility="no" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
