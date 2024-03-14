@@ -49,7 +49,8 @@
         android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextNumberPassword"
@@ -64,7 +65,8 @@
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView7"
@@ -131,8 +133,7 @@
         android:layout_height="52dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="28dp"
-        android:layout_marginBottom="96dp"
-        android:background="#2B2D30"
+        android:layout_marginBottom="44dp"
         android:drawableLeft="@drawable/google"
         android:text="Google"
         app:layout_constraintBottom_toBottomOf="@+id/button3"

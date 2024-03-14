@@ -32,4 +32,8 @@
     <string name="password">password</string>
     <string name="login">Login</string>
     <string name="facebook">Facebook</string>
+    <string name="home">Home</string>
+    <string name="payment">Payment</string>
+    <string name="profile">Profile</string>
+    <string name="todo">TODO</string>
 </resources>

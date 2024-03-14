@@ -16,10 +16,10 @@
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
-        android:id="@+id/historyFragment"
-        android:name="com.example.foodorderingapp.Fragment.HistoryFragment"
+        android:id="@+id/paymentFragment"
+        android:name="com.example.foodorderingapp.Fragment.PaymentFragment"
         android:label="fragment_history"
-        tools:layout="@layout/fragment_history" />
+        tools:layout="@layout/fragment_payment" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.foodorderingapp.Fragment.ProfileFragment"

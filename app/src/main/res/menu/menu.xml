@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:title="Home"
+        android:title="@string/home"
         android:id="@+id/homeFragment"
         android:icon="@drawable/home"/>
     <item
         android:title = "Cart"
         android:id="@+id/cartFragment"
-        android:icon="@drawable/cart" />
+        android:icon="@drawable/cart"
+        tools:ignore="HardcodedText" />
 
     <item
-        android:id="@+id/historyFragment"
+        android:id="@+id/paymentFragment"
         android:icon="@drawable/payment"
-        android:title="Payment" />
+        android:title="@string/payment" />
     <item
-        android:title="Profile"
+        android:title="@string/profile"
         android:id="@+id/profileFragment"
         android:icon="@drawable/user"/>
 </menu>

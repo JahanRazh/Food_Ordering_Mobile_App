@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.foodorderingapp.R
 
 
-class CartFragment : Fragment() {
+class PaymentFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class CartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cart, container, false)
+        return inflater.inflate(R.layout.fragment_payment, container, false)
     }
 
     companion object {
