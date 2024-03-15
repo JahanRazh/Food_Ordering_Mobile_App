@@ -69,9 +69,11 @@ Payment option and User Profile
 Content of xml files of Strings and Colors: 
 
 Color
+
 ![image](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/5df6c8f9-5795-41a1-a7a4-6d55b5e4440c)
-<br>
+
 Strings
+
 ![image](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/3a05c64c-bdbd-46f4-b743-6c0a78d43dd0)<br>
 ![image](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/ca126737-e7dc-4829-a840-4c8cdd3d17ea)
 
