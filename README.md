@@ -1,7 +1,9 @@
 Description:
 Fiesta Burgers mobile application is an online System for displaying and selling Burgers lets you crave or customize and order your perfect burger. Customers can Browse our menu, pick your burger or Customize Your Burger to Your Tastes. bun, Burger slide option and toppings, add any special requests. Track your order in real-time and enjoy delicious burgers delivered straight to your door! And an get a Ultimate Experience.
 Screenshots: 
-(Launching Screen and Onboarding Screen
+
+
+Launching Screen and Onboarding Screen
 
 ![image](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/f052a015-ce48-4691-93c3-49302e9c4d9d)
 ![image](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/a77ff74f-393a-4ed6-8223-e80de95915c7)
