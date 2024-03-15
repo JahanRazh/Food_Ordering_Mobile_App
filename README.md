@@ -3,8 +3,9 @@ Fiesta Burgers mobile application is an online System for displaying and selling
 
 Tech Stack:
 
-![Android Studio - Header](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/93ba806a-8186-45a0-bb93-f4f0a132195c)
-![kotlin-logo-social-21c8518b19eb96d96f35e0057bb92b7e1281a24820e0fa09e39c42f184bd7faa](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/c24ece79-6032-4202-9404-b57a58950274)
+![Android-Studio-Logo-Icon](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/2ef42fa7-f075-45e0-9784-07a26cbe5ab9)
+![Untitled](https://github.com/JahanRazh/Food_Ordering_Mobile_App/assets/121393192/f7c83adf-4160-4198-b680-53fc0c1593e8)
+
 
 
 Screenshots: 
